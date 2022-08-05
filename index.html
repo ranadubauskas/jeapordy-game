@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jeopardy!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Let's Play Jeopardy</h1>
+      <h3>Your score: <span id="score">[Score]</span></h3>
+      <div class="buttons">
+        <button id="random">Random Question</button>
+        <button id="hard">Hard Question</button>
+        <button id="catPuns">Cat Question</button>
+      </div>
+        <h3> Want to choose a question by category? Type a number according to the following key:   </h3>
+          <p> 19: weather </p>
+          <p> 21: movie composers </p>
+         <p> 29: odd words </p> 
+         <p> 69: cats </p> 
+     
+        <input type="text" id="category"/>
+        <input type="submit" value="get question!" id="submitCategory" />
+       <h4> Click the card below to see question! </h4>
+      <div class="questionCard" id="front">
+        <div class="questionHeader">
+          for <span id="points">[X00]</span> points:
+        </div>
+      </div>
+
+      <div class="questionCard hidden" id="back">
+        <div id="question">[QUESTION HERE]</div>
+        <div>
+          <input type="text" id="userAnswer" />
+          <input type="submit" value="submit" id="submit" />
+        </div>
+      </div>
+    </div>
+    <script src="./script.js" defer></script>
+  </body>
+</html>

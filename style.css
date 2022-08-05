@@ -1,0 +1,43 @@
+.container {
+  max-width: 90%;
+  margin: 40px auto;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+
+.buttons {
+  padding: 20px;
+}
+
+.buttons button {
+  padding: 20px;
+}
+
+.questionCard {
+  background-color: #060ce9;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 400px;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.questionCard #question {
+  margin: 10px;
+  text-shadow: 1px 1px black;
+  font-size: 1.2rem;
+}
+
+#points {
+  color: #ffd700;
+  text-shadow: 4px 4px black;
+  font-size: 100px;
+}
+
+.hidden{
+  display: none;
+}
